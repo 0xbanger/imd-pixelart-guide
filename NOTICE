@@ -1,0 +1,24 @@
+This skill adapts the Aseprite Lua guidance from mattt/aseprite-mcp:
+https://github.com/mattt/aseprite-mcp
+Commit: 0cd6aac4420a603ec10d19c9fe49a1bb5f6bff8b
+Upstream author: Mattt
+Upstream license: Apache License 2.0 (included as LICENSE).
+
+Changes for IMD, 2026-09-26: combined relevant Lua references into one pinned
+REFERENCE.md; added unattended assignment behavior, pixel-art review guidance,
+editable-source/export delivery requirements, a manifest, validation conventions
+and a dependency-free file checker. Replaced upstream online-reference fetching
+and unrestricted-local-script assumptions with the IMD assignment/tool contract.
+
+Aseprite is a separate application. This package includes no Aseprite application,
+compiled executable, source archive, application assets or activation credentials.
+Operators obtain and install it independently under its own terms. The MCP
+connector and this skill do not grant an Aseprite license.
+
+Version 2, 2026-09-26: the advertised capability is pixelart (tool:pixelart).
+Aseprite remains the required drawing engine. Operator setup now retains a
+separate tested runtime and removes private build materials after verification.
+
+Version 3, 2026-09-26: made STYLE.md an optional reusable art-direction handoff,
+with source-grounded documentation when requested, scoped extensions to supplied
+guides, and instructions for carrying references into subsequent requests.
