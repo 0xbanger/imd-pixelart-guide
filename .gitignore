@@ -1,0 +1,17 @@
+node_modules/
+*.log
+.env*
+.identitymd/
+.codex/
+.mcp-auth/
+.ssh/
+imd-tools/
+downloads/
+build/
+runtime/
+artifacts/
+operator-config.json
+live-mcp-report.json
+cleanup-report.json
+*.aseprite
+*.zip
